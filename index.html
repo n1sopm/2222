@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Система бронирования</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Система бронирования</h1>
+
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="Ваше имя" >
+      <input type="datetime-local" id="datetime" >
+      <button type="submit">Забронировать</button>
+    </form>
+
+    <div id="listSection">
+      <h2>Текущие бронирования</h2>
+      <ul id="bookingList">
+      
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
